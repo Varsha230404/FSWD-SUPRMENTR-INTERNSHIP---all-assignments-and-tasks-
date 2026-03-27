@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Folder Architect</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📁 Folder Architect</h1>
+      <p>Manage your folders and files with ease</p>
+    </header>
+
+    <div class="main-grid">
+      <section class="panel">
+        <h2>Folders</h2>
+        <div class="list-container" id="folderList">
+          <p class="loading">Loading folders...</p>
+        </div>
+        <div class="action-bar">
+          <input
+            type="text"
+            id="folderInput"
+            placeholder="Folder name..."
+            maxlength="30"
+          />
+          <button onclick="createFolder()" class="btn-primary">
+            Create Folder
+          </button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Files</h2>
+        <div class="list-container" id="fileList">
+          <p class="loading">Loading files...</p>
+        </div>
+        <div class="action-bar">
+          <input
+            type="text"
+            id="fileInput"
+            placeholder="File name..."
+            maxlength="30"
+          />
+          <input
+            type="text"
+            id="fileType"
+            placeholder="Type (e.g., PDF)..."
+            maxlength="20"
+          />
+          <button onclick="createFile()" class="btn-primary">
+            Create File
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <section class="panel clipboard-section">
+      <h3>Clipboard</h3>
+      <div id="clipboardStatus" class="clipboard-status">
+        Empty
+      </div>
+    </section>
+
+    <div id="statusMessage" class="status-message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
