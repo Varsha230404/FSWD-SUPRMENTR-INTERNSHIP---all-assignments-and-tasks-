@@ -1,0 +1,17 @@
+{
+  "name": "hello-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js Express server with different routes",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["express", "node", "server", "routes"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

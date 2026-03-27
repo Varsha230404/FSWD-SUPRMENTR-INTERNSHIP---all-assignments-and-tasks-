@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Hunt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="intro">
+            <p class="eyebrow">Assignment 05/03/2026</p>
+            <h1>Component Hunt: Instagram</h1>
+            <p class="lead">Instagram becomes easier to build when it is split into reusable parts like the top bar, stories, feed cards, profile card, and navigation.</p>
+        </section>
+
+        <section class="layout">
+            <div class="phone-frame">
+                <div class="component topbar active" data-name="Top Bar" data-info="Handles branding, search, quick actions, and the app entry point.">
+                    <span>Instagram</span>
+                    <span class="mini-icons">♡ ✉</span>
+                </div>
+
+                <div class="component stories" data-name="Stories Rail" data-info="A horizontal list of story avatars that can be reused anywhere short profile previews are needed.">
+                    <span>Story</span><span>Story</span><span>Story</span><span>Story</span>
+                </div>
+
+                <div class="component post" data-name="Feed Post" data-info="The feed post is a reusable card containing author info, media, actions, caption, and stats.">
+                    <div class="post-head">
+                        <strong>@iqoo_official</strong>
+                        <span>•••</span>
+                    </div>
+                    <div class="post-image"></div>
+                    <div class="post-copy">
+                        <strong>Launch teaser</strong>
+                        <p>High-impact content block with media and engagement actions.</p>
+                    </div>
+                </div>
+
+                <div class="component dock" data-name="Bottom Navigation" data-info="Persistent navigation lets users switch between home, reels, search, shop, and profile views.">
+                    <span>Home</span><span>Search</span><span>Reels</span><span>Profile</span>
+                </div>
+            </div>
+
+            <aside class="panel">
+                <div class="info-card">
+                    <p class="label">Selected Component</p>
+                    <h2 id="componentName">Top Bar</h2>
+                    <p id="componentInfo">Handles branding, search, quick actions, and the app entry point.</p>
+                </div>
+
+                <div class="info-card">
+                    <p class="label">Component Count</p>
+                    <h2 id="componentCount">8</h2>
+                    <p>Instagram can be sketched as small blocks instead of one large page.</p>
+                </div>
+            </aside>
+        </section>
+
+        <section class="map">
+            <div class="node" data-name="Sidebar Navigation" data-info="Desktop Instagram starts with a reusable navigation column for app-wide actions.">Sidebar Navigation</div>
+            <div class="node" data-name="Search Panel" data-info="A detachable panel component focused on discovery and recent searches.">Search Panel</div>
+            <div class="node" data-name="Stories Rail" data-info="Scrollable story cards grouped together as one reusable horizontal component.">Stories Rail</div>
+            <div class="node" data-name="Feed Post" data-info="The main repeatable card that powers the scrolling content feed.">Feed Post</div>
+            <div class="node" data-name="Reels Viewer" data-info="A vertical full-screen media viewer designed as its own component set.">Reels Viewer</div>
+            <div class="node" data-name="Messages Panel" data-info="Conversation list and chat area broken into separate communication components.">Messages Panel</div>
+            <div class="node" data-name="Profile Header" data-info="Profile photo, bio, counters, and actions grouped into a reusable identity block.">Profile Header</div>
+            <div class="node" data-name="Suggestions Widget" data-info="Small recommendation cards used in sidebars and profile pages.">Suggestions Widget</div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
