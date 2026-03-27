@@ -1,7 +1,7 @@
 # VARSHA S V FSWD SUPRMENTR INTERNSHIP
 
 ## 👤 Student Details
-- **Name:** Tejaswi
+- **Name:** Varsha S V
 - **Internship Program:** FSWD SuprMentr
 - **Repository:** Internship Assignments and Tasks
 
