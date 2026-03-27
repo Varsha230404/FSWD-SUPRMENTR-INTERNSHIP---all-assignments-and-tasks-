@@ -1,5 +1,10 @@
 # VARSHA S V FSWD SUPRMENTR INTERNSHIP
 
+## 👤 Student Details
+- **Name:** Tejaswi
+- **Internship Program:** FSWD SuprMentr
+- **Repository:** Internship Assignments and Tasks
+
 ## Overview
 This repository contains all assignments and tasks completed during my Full Stack Web Development Internship. It includes both frontend and backend projects built with various technologies including HTML/CSS/JavaScript, React, Node.js/Express, and more.
 
