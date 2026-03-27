@@ -510,7 +510,7 @@ node server.js
 
 1. **Clone the Repository:**
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Varsha230404/FSWD-SUPRMENTR-INTERNSHIP---all-assignments-and-tasks-.git>
 cd VARSHA\ S\ V\ FSWD\ SUPRMENTR\ INTERNSHIP
 ```
 
